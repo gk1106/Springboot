@@ -1,0 +1,38 @@
+body{
+    background-image: url("45519.png");
+    
+}
+.container{
+    display: flexbox;
+    flex-direction: column;
+}
+h1{
+    font-size: 200px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: blue;
+    color: white;
+   border-radius: 15px;
+   border-style: none;
+   height: 50px;
+   width: 300px;
+   font-size: larger;
+
+}
+button:hover{
+    background-color: white;
+    color: blue;
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+}
+
+    nav {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
